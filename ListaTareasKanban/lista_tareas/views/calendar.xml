@@ -1,0 +1,10 @@
+<record model="ir.ui.view" id="lista_tareas.calendar_view">
+    <field name="name">lista_tareas_calendar</field>
+    <field name="model">lista_tareas.lista_tareas</field>
+    <field name="arch" type="xml">
+        <calendar string="Tareas - Calendario" date_start="fecha_asignada">
+            <field name="tarea"/>
+            <field name="prioridad"/>
+        </calendar>
+    </field>
+</record>
